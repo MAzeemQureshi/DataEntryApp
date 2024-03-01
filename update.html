@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Data Storage App</title>
+     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@1.5.1/dist/web3.min.js"></script>
+    <script src="main.js"></script>
+</head>
+
+<body>
+    <a href="school.html" style="position: absolute; top: 20px; right: 20px; padding: 10px 20px; background-color: #007bff; color: #fff; text-decoration: none; border-radius: 5px;">Main Page</a>
+    <h1>School Employee Portal</h1>
+
+    <h2>Update Employee Details</h2>
+    <div>
+        <label for="updateId">ID:</label>
+        <input type="number" id="updateId">
+        <label for="updateName">Name:</label>
+        <input type="text" id="updateName">
+        <label for="updateDesignation">Designation:</label>
+        <input type="text" id="updateDesignation">
+        <label for="updateSalary">Salary:</label>
+        <input type="number" id="updateSalary">
+        <label for="updatePhoneNumber">Phone Number:</label>
+        <input type="number" id="updatePhoneNumber">
+        <button onclick="updateUser()">Update Employee</button>
+    </div>
+
+    <div class="bottom-buttons">
+        <button onclick="location.href='add.html'" class="bottom-button">Add Employee</button>
+        <button onclick="location.href='retrieve.html'" class="bottom-button">View Employee</button>
+        <button onclick="location.href='delete.html'" class="bottom-button">Delete Employee</button>
+        <button onclick="location.href='viewall.html'" class="bottom-button">View List</button>
+
+    </div>
+
+</body>
+
+</html>
